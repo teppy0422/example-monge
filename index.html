@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head id="myHead">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script async="" src="./js/analytics.js"></script>
+    <script src="./js/analytics_1.js"></script>
+    <script src="https://kit.fontawesome.com/689e1c2380.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Hoda">
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "WebPage",
+      "name": "Teppy's Portfolio Website",
+      "creator": {
+        "@type": "Person",
+        "name": "Tppei Kataoka"
+      },
+      "image": "./img/teppy-lab.png",
+      "url": "https://teppy.link/aboutMe/",
+      "description": "WebエンジニアTeppyのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。"
+    }
+    </script>
+    
+    <title>もんげ絵</title>
+
+    <link rel="stylesheet" href="./css/materialize.min.css" media="screen,projection"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/style2.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./css/css.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="shortcut icon" href="../../../images/hippo-72x72.png" type="image/png">
+
+    <!-- 画像のスライド -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <meta name="description" content="エンジニアTeppyのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。">
+    <meta name="keywords" content="Teppy,Webエンジニア,ソフトウェアエンジニア,ポートフォリオ">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Teppy's Portfolio">
+    <meta property="og:url" content="https://teppy.link/aboutMe/">
+    <meta property="og:description" content="WebエンジニアTeppyのポートフォリオサイトです。私がこれまでに手がけた制作物、身につけたスキルをまとめています。">
+    <meta property="og:image" content="./img/teppy-lab.png">
+    <meta property="og:site_name" content="Teppy's Portfolio">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="fb:app_id" content="">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:card" content="summary_large_image">
+    <style type="text/css">/* Chart.js */
+      @keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}
+    </style>
+  </head>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" >
+  <section id="loading" class="loading"><div class="loading__img"><img src="./img/loading.gif"></div></section>
+  <header id="myHeader">
+    <div class="navbar-fixed">
+      <nav style="background-color: pink;margin:0px;width:100%;">
+        <div class="nav-wrapper container" style="margin:0px;width:100%;height:4em;">
+          <!-- <a href="https://teppy.link/aboutMe/" id="logo-container" class="brand-logo" > -->
+            <!-- <svg style="isolation:isolate" viewBox="0 0 64 64" width="64" eight="64"><rect x="17.858" y="17.858" width="28.284" height="28.284" transform="matrix(0.707,-0.707,0.707,0.707,-13.255,32)" fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(121,198,182)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"></rect><path d=" M 15.556 22.222 C 15.556 18.543 18.543 15.556 22.222 15.556 C 25.902 15.556 28.889 18.543 28.889 22.222 C 28.889 25.902 25.902 28.889 22.222 28.889 C 18.543 28.889 15.556 25.902 15.556 22.222 Z " fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(144,202,249)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"></path><polygon points="35.556,44.559,43.552,32.889,48.889,46.222" fill="none" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(237,146,159)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"></polygon><line x1="27.556" y1="36.444" x2="16.889" y2="47.111" vector-effect="non-scaling-stroke" stroke-width="2.759" stroke="rgb(255,195,93)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"></line></svg> -->
+            <!-- <img src="./img/hippo_cir.png" height="48px"> -->
+          <!-- </a> -->
+          <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons led-color-of-icon">menu</i></a> -->
+          <section class="pc" style="width: 100%;">
+            <div class="neu_menu">
+              <img src="./img/logo.png" style="height:4em;">
+              <div onclick="load_html('welcome.html#','#main','menu_01');" class="neu" id="menu_01">ウェルカムボード</div>
+              <div class="neu">似顔絵単体</div>
+              <div class="neu">名刺</div>
+              <div onclick="load_html('sns_icon.html#','#main','menu_04')" class="neu" id="menu_04">SNS</div>
+            </div>
+          </section>
+
+          <section class="sp" >
+            <div class="neu_menu">
+              <img src="./img/logo_s.png" style="height:3em;">
+              <div onclick="load_html('welcome.html','#main','menu_01sp');" class="neu" id="menu_01sp"><img src="./img/welcom_letter.svg" style="height:2em;"></div>
+              <div onclick="load_html('sns_icon.html','#main','menu_04sp')" class="neu" id="menu_04sp"><img src="./img/sns_letter.svg" style="height:3em"></div>
+              <div onclick="load_html('sample_items.html','#main','menu_99sp')" class="neu" id="menu_99sp" style="color:#000;">参考</div>
+              <div onclick="load_html('readMe.html','#main','menu_00sp')" class="neu" id="menu_00sp" style="color:#000;">.md</div>
+
+            </div>
+          </section>
+          <!-- <picture>
+            <img src="img/logo.png" style="width:150px">
+          </picture>
+          <picture>
+            <source media="(min-width: 480px)" srcset="img/menu01.png">
+            <img src="img/menu01_icon.png">
+          </picture>
+          <picture>
+            <source media="(min-width: 480px)" srcset="img/menu02.png">
+            <img src="img/menu02_icon.png">
+          </picture> -->
+        </div>
+      </nav>
+    </div>
+  <!-- 
+    <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
+      <li><a href="#" class="scroll-to-top-li">トップ</a></li>
+      <li><a href="#about-this-site">このサイトについて</a></li>
+      <li>
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">プロフィール<i class="material-icons right">arrow_drop_down</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#projects">制作物</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#profile">プロフィール</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#contact">連絡先</a></li>
+      <li><a href="" target="_blank" rel="noopener"></a></li>
+      <li><a href=""></a></li>
+    </ul> -->
+  </header>
+  
+  <div id="main" class="">
+    <h5>サイトデザイン</h5>
+  </div>
+  
+  <div id="contact" class="section valign-wrapper">
+    <div class="container">
+      <div class="row">
+        <h3 class="center grey-text text-darken-3">Contact me</h3>
+        <div class="col s12 m8 offset-m2">
+          <p class="comment-text grey-text text-darken-3">
+            ご覧いただきありがとうございました。このサイトを通して私のことを少しでも知っていただけたのなら嬉しいです。
+            もし何かコメントがありましたら、下記フォームをご利用ください。</p>
+        </div>
+        <div class="col s12 aos-init" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+          <form method="POST" action="https://formspree.io/f/xknybbzp">
+            <div class="input-field col s6 offset-m2 m4">
+              <input id="name" name="name" type="text" required="">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s6 m4">
+              <input id="email0" name="email" type="email" required="">
+              <label for="email0">Email</label>
+            </div>
+            <div class="input-field col s12 offset-m2 m8">
+              <textarea id="textarea" name="message" class="materialize-textarea" required=""></textarea>
+              <label for="textarea">Comment</label>
+            </div>
+            <div class="input-field col s12 offset-m2 m8 center-align">
+              <button type="submit" class="waves-effect waves-light btn led-color-of-btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="closing-banner-container" class="valign-wrapper led">
+    <div class="container">
+      <div class="row center">
+        <h2 class="header col s12 light">Thank you for coming!</h2>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer-section led-color-of-footer valign-wrapper">
+    <div class="scroll-to-top-btn">
+      <a href="https://hodalab.com/portfolio/#" class="waves-effect waves-light led-color-of-btn"><i class="material-icons">keyboard_arrow_up</i></a>
+    </div>
+    <div class="container copyright">
+      <p>© 2022 Teppei Kataoka</p>
+    </div>
+  </footer>
+  
+  <script>
+    // heightをcssでvh指定するとLINEで下メニューが出た場合、画面サイズの見直しで高さがズレるから初回だけ取得して高さ固定
+    window.onload = function() {
+      let vh = window.innerHeight * 1;
+      vh = vh - 64;
+      // document.getElementById('top-banner-container').style.height = vh + 'px';
+      // document.getElementById('about-this-site').style.height = vh + 'px';
+      // document.getElementById('about-me').style.height = vh + 'px';
+      // document.getElementById('contact').style.height = vh + 'px';
+    }
+  </script>
+  <script src="./js/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+  <script src="./js/aos.js"></script>
+  <script src="./js/Chart.min.js"></script>
+  <script src="./js/materialize.min.js"></script>
+  
+  <!-- 画像のスライド -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+  
+  <script>
+    var versioningNum = new Date().getTime();
+    var jsURL = 'js/custom.js?ver=' + versioningNum;
+    var jsElement=document.createElement('script');
+    jsElement.setAttribute('src', jsURL);
+    document.getElementsByTagName("body")[0].appendChild(jsElement);
+  </script>
+  <script src="./js/custom.js"></script>
+  
+  <script type="text/javascript">
+    // html読み込み後にAOS.jsを有効化
+    function load_html(_url,_id,_me){
+      $(function() {
+        $.ajax({
+          type: 'GET',
+          url: _url,
+          dataType: 'html',
+          success: function(data) {
+            $(_id).empty();
+            $(_id).append(data);
+          },
+          error:function() {
+            alert('問題がありました。');
+          }
+        });
+      });
+      //読み込み完了後の処理
+      $(document).ajaxStop(function() {
+        //AOSを初期化
+        AOS.init({
+          duration: 400,
+          easing: 'ease'
+        });
+        //modalを有効
+        $('.button-collapse').sideNav()
+        $('.modal').modal({
+          startingTop: '0%',
+          endingTop: '5%'
+        })
+        //materialize.js
+        $('.materialboxed').materialbox();
+        //自作
+        custom();
+        //ボタンをアクティブ
+        var _mes = document.getElementsByClassName('neu');
+        for (var i = 0; i < _mes.length; i++){
+          _mes[i].classList.remove('menu_active');
+        }
+        document.getElementById(_me).classList.add('menu_active');
+      }); 
+    }
+    // 最初に読み込まれるhtml
+		window.addEventListener('load', function(){
+      load_html('readMe.html','#main','menu_00sp');
+    });
+    
+  </script>
+
+  <div class="hiddendiv common"></div><div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+  
+</body>
+</html>
